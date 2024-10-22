@@ -1,27 +1,22 @@
-# API de Sistema de Mesa de Pizzaria
+# Pizzaria API
 
-Esta é uma API para gerenciamento de mesas de uma pizzaria, desenvolvida utilizando TypeScript, Prisma e Express. O sistema permite o controle das mesas, pedidos e contas de maneira eficiente.
+API para gerenciamento de mesas e pedidos em uma pizzaria, utilizando TypeScript, Express e Prisma para realizar as operações de CRUD.
 
 ## Tecnologias Utilizadas
 
-- **TypeScript** - Linguagem utilizada para tipagem estática e desenvolvimento escalável.
-- **Express** - Framework minimalista para Node.js, utilizado para construção das rotas e controladores da API.
-- **Prisma** - ORM utilizado para gerenciamento do banco de dados, simplificando consultas e mutações.
+- **TypeScript**
+- **Express**
+- **Prisma**
+- **PostgreSQL**
 
 ## Funcionalidades
 
-- **Cadastro de Mesas**: Permite criar, editar e excluir mesas.
-- **Gerenciamento de Pedidos**: Adicionar, editar ou remover pedidos das mesas.
-- **Fechamento de Contas**: Calcular o valor total e registrar o pagamento.
-
-## Pré-requisitos
-
-- Node.js (versão >= 14.x)
-- Prisma
+- Gerenciamento de mesas (criação, atualização, exclusão)
+- Controle de pedidos por mesa
+- Fechamento e pagamento da conta
 
 ## Instalação
 
-1. Clone este repositório:
-
+1. Clone o repositório:
    ```bash
    git clone https://github.com/arthurdavidonisrd/Pizzaria_API.git
